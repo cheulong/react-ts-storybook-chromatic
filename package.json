@@ -7,7 +7,7 @@
     "serve": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=e93bec0fe76a"
+    "chromatic": "npx chromatic --exit-zero-on-changes"
   },
   "dependencies": {
     "react": "^17.0.0",
