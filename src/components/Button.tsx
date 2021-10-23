@@ -12,7 +12,7 @@ const Button: FC<ButtonProps> = ({ count, setCount }: ButtonProps) => {
       type='button'
       onClick={() => setCount((count) => count + 1)}
     >
-      count is: {count}
+      Count is: {count}
     </button>
   );
 };
